@@ -6,7 +6,7 @@
 body{
     font-family: 'Koulen';
     
-    background: url(/Images/PIA18033_medium.jpg);
+    background: url(PIA18033_medium.jpg);
     min-height: 100vw;
     width: 100%;
     display: flex;
