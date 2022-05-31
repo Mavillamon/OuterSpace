@@ -245,7 +245,7 @@ header{
 }
 .ImgCeres{
     grid-area: Div19;
-    background-image: url(/SistemaSolar/Ceres.jpg);
+    background-image: url(Ceres.jpg);
     background-size: contain;
 }
 .CaracteristicasCeres{
@@ -323,7 +323,7 @@ header{
 }
 .ImgUrano{
     grid-area: Div28;
-    background-image: url(/SistemaSolar/uranus-6063396.jpg);
+    background-image: url(uranus-6063396.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -402,7 +402,7 @@ header{
 }
 .ImgEris{
     grid-area: Div37;
-    background-image: url(/SistemaSolar/Eris.jpg);
+    background-image: url(Eris.jpg);
     background-size: contain;
 }
 .CaracteristicasEris{
