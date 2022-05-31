@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 0%;
+}
+.Numero video{
+    width: 80%;
+    object-fit: cover;
+}
+.Numero{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    font-size: 30px;
+    color: rgb(35, 247, 7);
+}
+.Menu p,a{
+    background: black;
+    text-decoration: none;
+    font-family: 'Fredoka One';
+    font-size: 50px;
+    color: rgb(35, 247, 7);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    padding-top: 35px;
+}
+.SistemaSolarUno{
+    padding-bottom: 3em;
+    padding-top: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-auto-rows: 150px;
+    grid-template-areas:
+    "Div0 Div0 Div0 Div0 Div0" 
+    "Div1 Div1 Div1 Div1 Div1"
+    "Div2 Div2 Div2 Div2 Div2"
+    "Div4 Div4 Div5 Div5 Div5"
+    "Div4 Div4 Div5 Div5 Div5"
+    "Div6 Div6 Div6 Div6 Div6"
+    "Div7 Div7 Div8 Div8 Div8"
+    "Div7 Div7 Div8 Div8 Div8"
+    "Div9 Div9 Div9 Div9 Div9"
+    "Div10 Div10 Div11 Div11 Div11"
+    "Div10 Div10 Div11 Div11 Div11"
+    "Div12 Div12 Div12 Div12 Div12"
+    "Div13 Div13 Div14 Div14 Div14"
+    "Div13 Div13 Div14 Div14 Div14"
+    "Div15 Div15 Div15 Div15 Div15"
+    "Div16 Div16 Div17 Div17 Div17"
+    "Div16 Div16 Div17 Div17 Div17"
+    "Div18 Div18 Div18 Div18 Div18"
+    "Div19 Div19 Div20 Div20 Div20"
+    "Div19 Div19 Div20 Div20 Div20"
+    "Div21 Div21 Div21 Div21 Div21"
+    "Div22 Div22 Div23 Div23 Div23"
+    "Div22 Div22 Div23 Div23 Div23"
+    "Div24 Div24 Div24 Div24 Div24"
+    "Div25 Div25 Div26 Div26 Div26"
+    "Div25 Div25 Div26 Div26 Div26"
+    "Div27 Div27 Div27 Div27 Div27"
+    "Div28 Div28 Div29 Div29 Div29"
+    "Div28 Div28 Div29 Div29 Div29"
+    "Div30 Div30 Div30 Div30 Div30"
+    "Div31 Div31 Div32 Div32 Div32"
+    "Div31 Div31 Div32 Div32 Div32"
+    "Div33 Div33 Div33 Div33 Div33"
+    "Div34 Div34 Div35 Div35 Div35"
+    "Div34 Div34 Div35 Div35 Div35"
+    "Div36 Div36 Div36 Div36 Div36"
+    "Div37 Div37 Div38 Div38 Div38"
+    "Div37 Div37 Div38 Div38 Div38"
+    "Div39 Div39 Div39 Div39 Div39";
+}
+.Menu{ 
+    grid-area: Div0;
+}
+.CaracteristicasTecnicas{
+    grid-area: Div1;
+    background: rgb(252,17,240);
+    text-align: center;
+    font-family: 'Fredoka One';
+    color: white;
+    font-size: 50px;
+    padding-top: 35px;
+}
+.Sol{
+    grid-area: Div2;
+    background: grey;
+    font-size: 30px;
+    color: yellow;
+    font-family: 'Fredoka One';
+    text-align: center;
+    padding: 35px;  
+}
+.ImgSol{
+    grid-area: Div4;
+}
+.ImgSol video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.CaracteristicasSol{
+    grid-area: Div5;
+    background: rgb(252,17,240);
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 45px;
+    margin: 5px 5px;
+}
+.Mercurio{
+    grid-area: Div6;
+    background: grey;
+    font-size: 30px;
+    color: yellow;
+    font-family: 'Fredoka One';
+    text-align: center;
+    padding: 35px;  
+}
+.ImgMercurio{
+    grid-area: Div7;
+}
+.ImgMercurio video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.CaracteristicasMercurio{
+    grid-area: Div8;
+    background: rgb(252,17,240);
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 35px;
+    margin: 5px 5px;
+}
+.Venus{
+    grid-area: Div9;
+    background: grey;
+    font-size: 30px;
+    color: yellow;
+    font-family: 'Fredoka One';
+    text-align: center;
+    padding: 35px;  
+}
+.ImgVenus{
+    grid-area: Div10;
+}
+.ImgVenus video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.CaracteristicasVenus{
+    grid-area: Div11;
+    background: rgb(252,17,240);
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 35px;
+    margin: 5px 5px;
+}
+.Tierra{
+    grid-area: Div12;
+    background: grey;
+    font-size: 30px;
+    color: yellow;
+    font-family: 'Fredoka One';
+    text-align: center;
+    padding: 35px;  
+}
+.ImgTierra{
+    grid-area: Div13;
+}
+.ImgTierra video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.CaracteristicasTierra{
+    grid-area: Div14;
+    background: rgb(252,17,240);
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 35px;
+    margin: 5px 5px;
+}
+.Marte{
+    grid-area: Div15;
+    background: grey;
+    font-size: 30px;
+    color: yellow;
+    font-family: 'Fredoka One';
+    text-align: center;
+    padding: 35px;  
+}
+.ImgMarte{
+    grid-area: Div16;
+}
+.ImgMarte video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.CaracteristicasMarte{
+    grid-area: Div17;
+    background: rgb(252,17,240);
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 35px;
+    margin: 5px 5px;
+}
+.Ceres{
+    grid-area: Div18;
+    background: grey;
+    font-size: 30px;
+    color: yellow;
+    font-family: 'Fredoka One';
+    text-align: center;
+    padding: 35px;  
+}
+.ImgCeres{
+    grid-area: Div19;
+    background-image: url(/SistemaSolar/Ceres.jpg);
+    background-size: contain;
+}
+.CaracteristicasCeres{
+    grid-area: Div20;
+    background: rgb(252,17,240);
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 35px;
+    margin: 5px 5px;
+}
+.Jupiter{
+    grid-area: Div21;
+    background: grey;
+    font-size: 30px;
+    color: yellow;
+    font-family: 'Fredoka One';
+    text-align: center;
+    padding: 35px;  
+}
+.ImgJupiter{
+    grid-area: Div22;
+}
+.ImgJupiter video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.CaracteristicasJupiter{
+    grid-area: Div23;
+    background: rgb(252,17,240);
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 35px;
+    margin: 5px 5px;
+}
+.Saturno{
+    grid-area: Div24;
+    background: grey;
+    font-size: 30px;
+    color: yellow;
+    font-family: 'Fredoka One';
+    text-align: center;
+    padding: 35px;  
+}
+.ImgSaturno{
+    grid-area: Div25;
+}
+.ImgSaturno video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.CaracteristicasSaturno{
+    grid-area: Div26;
+    background: rgb(252,17,240);
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    margin: 5px 5px;
+}
+.Urano{
+    grid-area: Div27;
+    background: grey;
+    font-size: 30px;
+    color: yellow;
+    font-family: 'Fredoka One';
+    text-align: center;
+    padding: 35px;  
+}
+.ImgUrano{
+    grid-area: Div28;
+    background-image: url(/SistemaSolar/uranus-6063396.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.CaracteristicasUrano{
+    grid-area: Div29;
+    background: rgb(252,17,240);
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    margin: 5px 5px;
+}
+.Neptuno{
+    grid-area: Div30;
+    background: grey;
+    font-size: 30px;
+    color: yellow;
+    font-family: 'Fredoka One';
+    text-align: center;
+    padding: 35px;  
+}
+.ImgNeptuno{
+    grid-area: Div31;
+}
+.ImgNeptuno video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.CaracteristicasNeptuno{
+    grid-area: Div32;
+    background: rgb(252,17,240);
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    margin: 5px 5px;
+}
+.Pluton{
+    grid-area: Div33;
+    background: grey;
+    font-size: 30px;
+    color: yellow;
+    font-family: 'Fredoka One';
+    text-align: center;
+    padding: 35px;  
+}
+.ImgPluton{
+    grid-area: Div34;
+}
+.ImgPluton iframe{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.CaracteristicasPluton{
+    grid-area: Div35;
+    background: rgb(252,17,240);
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 35px;
+    margin: 5px 5px;
+}
+.Eris{
+    grid-area: Div36;
+    background: grey;
+    font-size: 30px;
+    color: yellow;
+    font-family: 'Fredoka One';
+    text-align: center;
+    padding: 35px;  
+}
+.ImgEris{
+    grid-area: Div37;
+    background-image: url(/SistemaSolar/Eris.jpg);
+    background-size: contain;
+}
+.CaracteristicasEris{
+    grid-area: Div38;
+    background: rgb(252,17,240);
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 35px;
+    margin: 5px 5px;
+}
+.Final{
+    grid-area: Div39;
+    background: black;
+    font-size: 30px;
+    color: rgb(35, 247, 7);
+    font-family: 'Fredoka One';
+    text-align: center;
+    padding: 35px; 
+}

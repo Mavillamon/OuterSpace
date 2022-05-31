@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Principal{
+    padding-bottom: 3em;
+    padding-top: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-auto-rows: 150px;
+    grid-template-areas: 
+    "Div1 Div1 Div1 Div1 Div1"
+    "Div2 Div2 Div2 Div2 Div2"
+    "Div3 Div3 Div3 Div3 Div3"
+    "Div3 Div3 Div3 Div3 Div3"
+    "Div4 Div4 Div4 Div4 Div4"
+    "Div5 Div5 Div5 Div6 Div6"
+    "Div5 Div5 Div5 Div6 Div6"
+    "Div5 Div5 Div5 Div6 Div6"
+    "Div7 Div7 Div7 Div7 Div7"
+    "Div8 Div8 Div9 Div9 Div9"
+    "Div8 Div8 Div9 Div9 Div9"
+    "Div11 Div11 Div11 Div10 Div10"
+    "Div11 Div11 Div11 Div10 Div10"
+    "Div12 Div12 Div13 Div13 Div13"
+    "Div12 Div12 Div13 Div13 Div13"
+    "Div14 Div14 Div14 Div15 Div15"
+    "Div14 Div14 Div14 Div15 Div15"
+    "Div16 Div16 Div16 Div16 Div16"
+    "Div16 Div16 Div16 Div16 Div16"
+    "Div17 Div17 Div17 Div17 Div17"
+    "Div17 Div17 Div17 Div17 Div17";
+}
+.Titulo{
+    grid-area: Div1;
+    background: url(/Images/Fondo.jpg);
+    font-size: 50px;
+    font-family: 'Staatliches';
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+.Inicio{
+    grid-area: Div2;
+    background: black;
+}
+.Inicio p, a{
+    text-decoration: none;
+    font-family: 'Fredoka One';
+    font-size: 50px;
+    color: rgb(35, 247, 7);
+    text-align: center;
+    padding: 35px;
+}
+.Definicion{
+    grid-area: Div3;
+    background:rgb(35, 247, 7)
+}
+.Definicion h2{
+    text-align: center;
+    color: white;
+    font-family: 'Staatliches';
+    font-size: 40px;
+    padding: 30px;
+    width: 100%;
+}
+.Definicion h3{
+    text-align: center;
+    color: white;
+    font-family: 'Staatliches';
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+.Partes{
+    grid-area: Div4;
+    background: black;
+    font-size: 30px;
+    color: yellow;
+    font-family: 'Fredoka One';
+    text-align: center;
+    padding: 35px;
+}
+.ImagenGalaxia{
+    grid-area: Div5;
+}
+.Definiciones{
+    grid-area: Div6;
+    background: rgb(252,17,240);
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+    font-size: 19px;
+    padding: 16px;
+    margin: 5px 5px;
+}
+.Tipos{
+    grid-area: Div7;
+    background: yellow;
+    font-size: 30px;
+    color: black;
+    font-family: 'Fredoka One';
+    text-align: center;
+    padding: 35px;  
+}
+.Eliptica{
+    grid-area: Div8;
+}
+.Elip{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.DefEliptica{
+    grid-area: Div9;
+    text-align: center;
+    font-family: 'Fredoka One';
+    font-size: 25px;
+    color: black;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    border: solid rgb(252,17,240) 20px;
+}
+.Espirales{
+    grid-area: Div10;
+}
+.Espi{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.DefEspirales{
+    grid-area: Div11;
+    text-align: center;
+    font-family: 'Fredoka One';
+    font-size: 25px;
+    color: black;
+    width: 100%;
+    height: 100%;
+    padding: 35px;
+    border: solid rgb(252,17,240) 20px;
+}
+.Lenticulares{
+    grid-area: Div12;
+}
+.Lent{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.DefLenticulares{
+    grid-area: Div13;
+    text-align: center;
+    font-family: 'Fredoka One';
+    font-size: 25px;
+    color: black;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    border: solid rgb(252,17,240) 20px;
+}
+.Irregulares{
+    grid-area: Div15
+}
+.Irreg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.DefIrregulares{
+    grid-area: Div14;
+    text-align: center;
+    font-family: 'Fredoka One';
+    font-size: 25px;
+    color: black;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    border: solid rgb(252,17,240) 20px;
+}
+.Conocidas{
+    grid-area: Div16;
+}
+.Conocidas h2{
+    background: black;
+    text-align: center;
+    font-family: 'Fredoka One';
+    color: white;
+    font-size: 50px;
+    padding: 15px;
+}
+.Conocidas p{
+    text-align: center;
+    font-family: 'Fredoka One';
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+}
+.Movimiento{
+    grid-area: Div17;
+    background: rgb(35, 247, 7);
+}
+.Movimiento h2{
+    text-align: center;
+    color: white;
+    font-family: 'Staatliches';
+    font-size: 40px;
+    padding: 10px;
+    width: 100%;
+}
+.Movimiento h3{
+    text-align: center;
+    color: white;
+    font-family: 'Staatliches';
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.Final{
+    background: white;
+    height: 100%;
+}
+.Final h1{
+    margin: auto;
+    text-align: center;
+    color: rgb(252,17,240);
+    height: 1o0px;
+    font-family: 'Staatliches';
+    font-size: 50px;
+}
