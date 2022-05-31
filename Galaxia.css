@@ -34,7 +34,7 @@
 }
 .Titulo{
     grid-area: Div1;
-    background: url(/Images/Fondo.jpg);
+    background: url(Fondo.jpg);
     font-size: 50px;
     font-family: 'Staatliches';
     text-align: center;
